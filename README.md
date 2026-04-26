@@ -15,6 +15,8 @@
 3) 별도로 수집되는 개인정보
 배송 정보(주소 전화번호), 결제 정보(이름, 결제 유형, 결제 계좌 번호 및 결제 계좌 확인 정보 포함)
 4) 특정 데이터는 귀하의 장치 또는 웹 브라우저 및 통신에서 자동으로 수집됩니다. 이 데이터에는 IP 주소와 같은 장치 정보가 포함됩니다. 
+5) 외부 서비스 연동 시 수집되는 개인정보 (Garmin Connect API 등)
+회원이 외부 서비스 계정과의 연동에 동의한 경우, 해당 서비스가 제공하는 활동 데이터(거리, 페이스, 시간, 심박수, 칼로리 등), 기기 정보, 운동·수면 요약 데이터 등이 수집될 수 있습니다.
 
 ※ 각 항목 또는 추가적으로 수집이 필요한 개인정보 및 개인정보를 포함한 자료는 이용자 응대 과정과 서비스 내부 알림 수단 등을 통해 별도의 동의 절차를 거쳐 요청·수집될 수 있습니다.
 ※ 서비스 이용 과정에서 자동으로 수집된 정보는 다른 정보와의 결합 여부, 처리 방식 등에 따라 개인정보에 해당하거나 해당하지 않을 수 있으며 회사는 이를 서비스 제공 목적으로 처리할 수 있습니다.
@@ -82,7 +84,11 @@
 
 ### 10. 외부 AI 및 제3자 AI 서비스 활용 제한
 
-회사는 Garmin Connect API 등 외부 서비스 연동을 통해 수집한 데이터를 포함하여, 본 처리방침에 따라 수집·보유하는 모든 개인정보를 외부 AI 제공업체 또는 제3자 AI 서비스에 공유, 제공, 처리 또는 이용되도록 하지 않습니다.
+회사는 Garmin Connect API 등 외부 서비스 연동을 통해 수집한 데이터를 포함하여, 본 처리방침에 따라 수집·보유하는 모든 개인정보를 외부 AI 제공업체, 제3자 AI 서비스 또는 외부 데이터 처리 서비스(third-party data processing services)에 공유, 제공, 처리 또는 이용되도록 하지 않습니다.
+
+**English Notice (Garmin Connect Developer Program Compliance)**
+
+As required by the Garmin Connect Developer Program, data obtained via the Garmin Connect API is not shared with, processed by, or otherwise made available to any third party, including external AI providers, third-party AI services, or external data processing services. The same restriction applies to all personal information the Company collects and retains under this Privacy Policy.
 
 ### 11. 개인정보 업무 담당부서 및 고충사항을 처리하는 부서에 관한 사항
 
