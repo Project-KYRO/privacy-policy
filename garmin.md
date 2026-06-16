@@ -64,7 +64,7 @@ The sub-processors named in Section 5 (Supabase, Cloudflare) process Garmin data
 
 ## 8. Contact
 
-- Data Protection Officer: An Jeong-woo (안정우)
+- Data Protection Officer: Ahn Jeongwoo (안정우)
 - Email: support@kyro.team
 
 For the full KYRO Privacy Policy, see <https://project-kyro.github.io/privacy-policy/>.
