@@ -164,6 +164,10 @@
 
 As required by the Garmin Connect Developer Program, data obtained via the Garmin Connect API is not shared with, processed by, or otherwise made available to any third party, including external AI providers, third-party AI services, or external data processing services. The same restriction applies to all personal information the Company collects and retains under this Privacy Policy. Service-provider relationships disclosed in Article 11 (data processing entrustment) are operated under the Company's direction and control and do not constitute third-party sharing under this provision.
 
+> For a complete, dedicated disclosure of how data obtained through the Garmin Connect API is collected, used, processed, stored, and shared, see the **[Garmin Connect API — Data Disclosure](./garmin.html)** page.
+>
+> Garmin Connect API를 통해 수집한 데이터의 수집·이용·처리·저장·공유에 관한 전용 고지는 **[Garmin Connect API — 데이터 처리 고지](./garmin.html)** 페이지를 참조하십시오.
+
 ### 13. 광고성 정보의 전송
 
 회사는 영리 목적의 광고성 정보를 회원에게 전송하고자 하는 경우, 정보통신망 이용촉진 및 정보보호 등에 관한 법률 제50조에 따라 회원의 사전 동의를 받습니다. 동의한 회원이라도 언제든지 수신 거부 의사를 표시할 수 있으며, 이 경우 회사는 즉시 광고성 정보 전송을 중단합니다.
