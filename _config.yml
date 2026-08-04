@@ -1,0 +1,20 @@
+# KYRO Privacy Policy — GitHub Pages (legacy Jekyll build from the main branch root).
+#
+# The page shell lives in _layouts/legal.html; index.html inlines both language
+# bodies (README.md = Korean source of truth, en.md = English) and the shell
+# picks one at load. garmin.md is already bilingual in a single document, so it
+# uses the same shell without the language switcher.
+#
+# No theme on purpose: the default Primer theme rendered a Korean-only document
+# with no way to reach the English one.
+title: KYRO
+description: KYRO 개인정보처리방침 / Privacy Policy
+theme:
+plugins: []
+
+# The markdown sources are pulled in with include_relative, so they must stay in
+# the site source. They are copied to the output as static files, which is
+# harmless — index.html is what serves the document.
+kramdown:
+  input: GFM
+  auto_ids: true

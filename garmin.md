@@ -1,6 +1,8 @@
 ---
+layout: legal
 title: "Garmin Connect API — Data Disclosure | KYRO"
 description: "How KYRO (Movement Lab Inc.) collects, uses, processes, stores, and shares data obtained through the Garmin Connect API."
+canonical: "https://project-kyro.github.io/privacy-policy/garmin.html"
 ---
 
 # Garmin Connect API — Data Disclosure
