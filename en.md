@@ -6,7 +6,7 @@
 
 ### 1. About This Privacy Policy
 
-This Privacy Policy describes how Movement Lab Inc. (the "Company") collects, uses, stores, and destroys personal data in providing its service. It complies with the Personal Information Protection Act ("PIPA"), the Act on the Protection and Use of Location Information (the "Location Information Act"), and other applicable Korean data protection legislation. Terms not defined in this Policy have the meaning given to them in the Terms of Use.
+This Privacy Policy describes how Movements Lab Co., Ltd. (the "Company") collects, uses, stores, and destroys personal data in providing its service. It complies with the Personal Information Protection Act ("PIPA"), the Act on the Protection and Use of Location Information (the "Location Information Act"), and other applicable Korean data protection legislation. Terms not defined in this Policy have the meaning given to them in the Terms of Use.
 
 ### 2. Personal Data We Collect
 
