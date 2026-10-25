@@ -17,7 +17,7 @@ The Company collects the minimum personal data necessary from among the followin
 - Entered directly by the member during sign-up: nickname, date of birth, gender, height, weight
 - Collected automatically on social sign-up (Kakao / Apple / Google / LINE): the email address, name (or nickname), profile image, and social identifier (such as a sub ID) that the social platform provides within the scope of the member's consent
 - Provided optionally by the member: profile image, Instagram handle (displayed publicly on the member's profile)
-- Answered optionally at sign-up: the answer to "Where did you hear about KYRO?" (one of Instagram/Facebook, TikTok, YouTube, X, a friend or crew, app store search, web search, a running event, or other) and the time of the answer. Not answering does not restrict sign-up or use of the service; this information is used only for the Company's own analysis of how members found KYRO and is not provided to Meta or any other third party.
+- Answered optionally at sign-up: the answer to "Where did you hear about KYRO?", asked on a separate screen during sign-up (one of Instagram/Facebook, TikTok, YouTube, X, search, a friend or crew, a running event or on-site, or other), and the time of the answer. Not answering does not restrict sign-up or use of the service; this information is used only for the Company's own analysis of how members found KYRO and is not provided to Meta or any other third party.
 
 The Company does not separately collect a member's legal name or mobile phone number during sign-up.
 
