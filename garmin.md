@@ -9,7 +9,7 @@ canonical: "https://project-kyro.github.io/privacy-policy/garmin.html"
 
 _This page is part of the [KYRO Privacy Policy](./) and describes specifically how data obtained through the **Garmin Connect API** is collected, used, processed, stored, and shared. It is maintained by Movements Lab Co., Ltd. (주식회사 무브먼트랩, "the Company"), operator of the KYRO application._
 
-**Last updated: 2026-06-17**
+**Last updated: YYYY-MM-DD**
 
 ---
 
@@ -55,6 +55,7 @@ The Company does **not** share, sell, transfer, or otherwise make available data
 
 - any third party, **including external AI providers, third-party AI services, or external data-processing services**, nor
 - any party for purposes unrelated to providing the KYRO running service.
+- **Meta or any other advertising platform or advertising business.** Garmin data is never sent to them, and runs imported from Garmin are never used to determine whether any ad-measurement event (Article 11-2 of the [KYRO Privacy Policy](./)) is sent.
 
 The sub-processors named in Section 5 (Supabase, Cloudflare) process Garmin data **only** to store and operate the service under the Company's direction and control, within the scope of their service agreements. This does not constitute third-party sharing, and these sub-processors are not "third-party AI services or external data-processing services" within the meaning of this disclosure.
 
@@ -77,7 +78,7 @@ For the full KYRO Privacy Policy, see <https://project-kyro.github.io/privacy-po
 
 _본 페이지는 [KYRO 개인정보처리방침](./)의 일부로서, **Garmin Connect API**를 통해 수집한 데이터를 어떻게 수집·이용·처리·저장·공유하는지를 구체적으로 설명합니다. KYRO 애플리케이션 운영사인 주식회사 무브먼트랩(이하 "회사")이 관리합니다._
 
-**최종 업데이트: 2026-06-17**
+**최종 업데이트: YYYY-MM-DD**
 
 ## 1. 적용 범위
 
@@ -121,6 +122,7 @@ Garmin이 신규·갱신 활동에 대한 PING/PUSH 웹훅 알림을 전송하�
 
 - 외부 AI 제공업체, 제3자 AI 서비스, 외부 데이터 처리 서비스(external data-processing services)를 **포함한** 모든 제3자
 - KYRO 러닝 서비스 제공과 무관한 목적의 어떤 당사자
+- **Meta를 비롯한 어떠한 광고 플랫폼이나 광고 사업자.** Garmin 데이터는 이들에게 보내지 않으며, Garmin에서 가져온 러닝은 광고 효과 측정 이벤트([KYRO 개인정보처리방침](./) 제11조의2)를 보낼지 판단하는 데에도 쓰지 않습니다.
 
 제5항의 수탁사(Supabase, Cloudflare)는 서비스 계약 범위 내에서 회사의 지시·감독 하에 데이터를 저장·운영하기 위해서**만** Garmin 데이터를 처리합니다. 이는 제3자 제공에 해당하지 않으며, 해당 수탁사는 본 고지에서 말하는 "제3자 AI 서비스 또는 외부 데이터 처리 서비스"에 해당하지 않습니다.
 

@@ -2,7 +2,7 @@
 
 > **언어 / Language** — 본 처리방침은 한국어와 영어로 제공됩니다. 영문본은 이해를 돕기 위한 번역이며, 해석상 차이가 있는 경우 **한국어본이 우선**합니다. / This policy is available in Korean and English. The English version is a convenience translation; in case of any discrepancy, **the Korean version prevails**. → [English](./en.md)
 
-> **본 개정 처리방침은 2026년 8월 4일부터 시행됩니다.** 직전 본은 [2026년 5월 17일자 처리방침](https://github.com/Project-KYRO/privacy-policy/blob/main/archive/privacy-2026-05-17.ko.md)에서 확인하실 수 있습니다. 이번 개정은 회원에게 불리한 변경에 해당하지 않으며(유료서비스를 이용하는 회원에게만 발생하는 결제 정보 처리의 고지, 국외 이전 사실의 신규 공개, 실제로 수집하지 않는 항목의 삭제 등), 회원 보호를 위해 지체 없이 시행합니다. 이번 개정의 주요 내용은 인앱 결제(KYRO PRO) 도입에 따른 결제 정보 처리 고지, 개인정보 국외이전 조항 신설, 수집 항목 및 수탁사 현행화입니다. 자세한 내용은 [변경 이력](#17-변경-이력)을 참조하십시오.
+> **이 개정 처리방침(v1.3)은 YYYY년 MM월 DD일부터 시행됩니다. 시행일 전까지는 [직전 처리방침(v1.2, 2026년 8월 4일 시행)](https://github.com/Project-KYRO/privacy-policy/blob/main/archive/privacy-2026-08-04.ko.md)이 적용됩니다.** 이번 개정은 광고 효과 측정을 위해 앱에 Meta의 앱 이벤트 SDK를 도입하면서 수집 항목(광고 식별자 등)과 제3자 제공을 추가하는 것이므로, 제16조에 따라 시행일 30일 전에 공고합니다. 회사는 시행일 전에는 Meta에 어떠한 정보도 보내지 않습니다. 주요 내용은 ① 광고 식별자와 앱 이벤트 기록의 수집, ② 광고 효과 측정을 위한 Meta 제공(제11조의2)과 그에 따른 국외 이전, ③ 위치·운동 기록과 외부 서비스·건강 앱에서 가져온 데이터는 Meta를 비롯한 광고 플랫폼에 보내지 않는다는 점의 명시, ④ 거부 방법 안내입니다. 자세한 내용은 [변경 이력](#17-변경-이력)을 참조하십시오.
 
 ### 1. 개인정보 처리방침
 
@@ -38,6 +38,7 @@
 - 식별 정보: IP 주소, 디바이스 식별자
 - 알림 발송용: 푸시 알림 토큰(FCM)
 - 사용 로그: 앱 사용 이벤트, 화면 이동 경로, 크래시(앱 비정상 종료) 리포트
+- 광고 효과 측정용(제11조의2): 광고 식별자(iOS의 IDFA는 회원이 앱 추적 허용 요청에서 ‘허용’을 선택한 경우에만, Android의 광고 ID는 회원이 기기 설정에서 광고 ID를 삭제하지 않은 경우에만 수집), 앱 설치·실행 기록(Android는 Google Play 설치 경로 정보 포함), 앱 이벤트 기록(가입 완료, 첫 러닝 완료, 첫 영토 획득, 두 번째 러닝 완료 — 이벤트 이름만 기록하며, 러닝·영토 이벤트는 KYRO 앱에서 직접 기록한 러닝에 한함)
 
 자동으로 수집된 정보는 다른 정보와의 결합 여부 및 처리 방식에 따라 개인정보에 해당하거나 해당하지 않을 수 있으며, 회사는 이를 서비스 제공·개선 목적으로 처리할 수 있습니다.
 
@@ -75,6 +76,7 @@
 - 결제·환불·청약철회 처리, 결제 관련 고객 문의 및 분쟁 대응
 - 무료체험 종료 예정 등 구독 상태에 관한 안내 발송
 - 회사의 제품, 서비스 및 이벤트에 대한 정보 전달 및 기타 홍보 목적 (광고성 정보 전송 시 제14조에 따라 별도 동의를 받습니다)
+- 광고 효과 측정(어떤 광고를 보고 앱을 설치·가입했는지 확인). 회원 개인을 겨냥한 광고 노출(타게팅)이나 프로파일링을 위한 것이 아니며, 자세한 내용은 제11조의2에 따릅니다.
 - 회원의 경험과 플랫폼 및 커뮤니케이션 개인화
 - 회사의 사업, 제품 및 서비스를 운영, 개선 및 유지
 - 회사 또는 타인의 권리, 재산 또는 안전 보호
@@ -132,6 +134,8 @@
 회원의 개인정보 열람·정정·삭제·처리 정지·동의 철회 요구는 법률에 특별한 규정이 있는 등의 경우에는 회사가 거절할 수 있습니다. 회원은 회사의 요구 거절에 대하여 이의를 제기할 수 있습니다.
 회사는 회원의 정보 주체 권리에 따른 열람·정정·삭제·처리 정지·동의 철회 요구 시, 요구를 한 이용자가 본인이거나 정당한 법정대리인인지 확인합니다.
 
+회원은 제11조의2에 따른 광고 식별자 및 광고 효과 측정 정보의 Meta 제공을 그 조에 적은 방법(앱 추적 거부, 광고 ID 삭제, 전송 중단 요청)으로 언제든지 거부할 수 있으며, 거부하더라도 서비스 이용에는 제한이 없습니다.
+
 **개인위치정보 주체의 권리 (위치정보법 제24조)**
 
 개인위치정보 주체는 본인의 개인위치정보에 대하여 다음의 권리를 행사할 수 있습니다.
@@ -158,7 +162,7 @@
 - **수집·이용 목적**: 회원 본인의 러닝 기록 측정, 누적 영토 시각화, 랭킹 및 통계 제공
 - **수집 방법**: 회원이 사용하는 단말의 OS 표준 위치 측위 API (Apple Core Location / Google Geolocation Services) 를 통해 GPS 좌표를 수집하며, 러닝 진행 중에는 백그라운드에서도 수집됩니다.
 - **보유 기간**: 회원 자격을 유지하는 기간 동안 보존하며, 회원 탈퇴 또는 동의 철회 시 GPS 경로를 포함한 위치정보를 지체 없이 파기합니다. 탈퇴 후 지도에 유지되는 영토의 형상 정보 처리에 관하여는 제5조 및 제6조를 참조하십시오. 위치정보 이용·제공사실 확인자료는 위치정보법 제16조 제2항에 따라 6개월 이상 보관 후 파기합니다.
-- **제3자 제공**: 회사는 회원의 위치정보를 광고·마케팅 등의 목적으로 외부 사업자에게 판매하거나 제공하지 않습니다.
+- **제3자 제공**: 회사는 회원의 위치정보를 광고·마케팅 등의 목적으로 외부 사업자에게 판매하거나 제공하지 않습니다. 제11조의2에 따라 Meta에 제공하는 광고 효과 측정 정보에도 위치정보는 포함되지 않습니다.
 - **다른 회원에 대한 공개**: 본 서비스는 회원이 달린 경로와 그로부터 생성된 영토를 다른 회원에게 보여주는 것을 핵심 기능으로 합니다. 회원은 러닝을 저장할 때 공개 범위를 **전체 공개 / 친구 / 팔로워 / 나만 보기** 중에서 선택할 수 있으며, 초기값은 전체 공개입니다. 전체 공개로 저장된 러닝은 다른 회원이 경로와 기록을 열람할 수 있습니다. 회원은 저장 후에도 언제든지 공개 범위를 변경할 수 있고, 특정 회원을 차단할 수 있습니다.
 - **출발·도착 지점 보호**: 설정 › 개인정보 보호에서 [출발·도착점 가리기]를 켜면, 다른 회원에게 표시되는 경로에서 양 끝 200m 구간이 가려집니다. 본인에게는 항상 전체 경로가 표시됩니다. 자택 등 민감한 위치가 경로의 시작·끝에 포함되는 경우 이 설정을 사용하시기 바랍니다.
 - **위치정보관리책임자**: 안정우 (대표이사) / support@kyro.team
@@ -181,6 +185,48 @@
 
 **결제 처리에 관한 안내** — 인앱 결제의 대금 결제 및 결제수단 정보 처리는 Apple Inc.(App Store) 및 Google LLC(Google Play)가 각자의 개인정보처리방침에 따라 **독립적으로** 수행합니다. 두 회사는 회사의 수탁사가 아니며, 회사는 이들로부터 결제수단 정보를 제공받지 않습니다.
 
+**Meta에 관한 안내** — 광고 효과 측정을 위해 Meta Platforms, Inc.에 정보를 보내는 것은 처리 위탁이 아니라 제3자 제공으로 보아 제11조의2에 따로 적습니다. Meta는 위 표의 수탁사가 아니며, 제13조에서 말하는 수탁사에도 해당하지 않습니다.
+
+### 11-2. 광고 효과 측정을 위한 개인정보의 제3자 제공
+
+회사는 정보주체의 동의, 법률의 특별한 규정 등 개인정보보호법 제17조 및 제18조에 해당하는 경우에만 개인정보를 제3자에게 제공합니다.
+
+회사는 어떤 광고를 보고 KYRO 앱을 설치하고 가입했는지 측정하기 위하여, 앱에 Meta의 앱 이벤트 SDK(이하 “Meta SDK”)를 두고 아래 정보를 Meta에 제공합니다. Meta는 받은 정보를 회사에 측정·분석 결과를 제공하는 데 쓰는 것 외에도, Meta 비즈니스 도구 약관에 따라 광고 게재와 Meta 제품의 제공·개선 등 Meta 자신의 목적으로도 이용할 수 있습니다. 그래서 회사는 이 전송을 제11조의 처리 위탁이 아닌 제3자 제공으로 고지합니다. 회사는 이 처리방침(v1.3)의 시행일 전에는 Meta SDK를 꺼 두며, Meta에 어떠한 정보도 보내지 않습니다.
+
+| 제공받는 자 | 제공 목적 | 제공 항목 | 보유·이용 기간 |
+|---|---|---|---|
+| Meta Platforms, Inc. (GDPR이 적용되는 유럽 지역 이용자의 정보는 Meta Platforms Ireland Limited) | 광고 효과 측정(어떤 광고를 보고 설치·가입했는지 집계), 그리고 Meta 비즈니스 도구 약관에 따른 Meta의 측정·분석 서비스 제공, 광고 게재, Meta 제품의 제공·개선 및 보안 | 광고 식별자, 앱 설치·실행 신호, 기기·운영체제·앱 버전 정보, 앱 이벤트 이름 4가지 (아래 1) 참조) | Meta 비즈니스 도구 약관에 따라 최대 2년 |
+
+**1) Meta에 보내는 정보 — 아래 항목으로 한정됩니다**
+
+- **광고 식별자**: iOS의 IDFA는 회원이 앱 추적 허용 요청(App Tracking Transparency)에서 ‘허용’을 선택한 경우에만 보냅니다. Android의 광고 ID는 회원이 기기 설정에서 광고 ID를 삭제하지 않은 경우에 보냅니다.
+- **앱 설치·실행 신호**: Meta SDK가 앱 설치와 앱 실행 시 자동으로 보내는 신호입니다. Android에서는 Google Play가 제공하는 설치 경로 정보(install referrer)가 함께 전달됩니다.
+- **기기 정보**: Meta SDK가 함께 보내는 기기 모델, 운영체제 및 버전, 앱 버전 등의 정보와, Meta SDK가 앱 설치마다 만드는 식별값, Meta SDK 자체에 오류가 났을 때의 오류 기록입니다. 인터넷 통신의 특성상 기기의 IP 주소도 Meta에 전달됩니다.
+- **앱 이벤트 4가지**: ‘가입 완료’, ‘첫 러닝 완료’, ‘첫 영토 획득’, ‘두 번째 러닝 완료’. 회사는 이벤트의 이름만 보내며, 거리·시간 등 어떠한 값도 함께 보내지 않습니다. 러닝·영토 이벤트는 회원이 KYRO 앱에서 직접 기록한 러닝에 대해서만 보냅니다.
+
+**2) Meta에 보내지 않는 정보**
+
+- 위치정보(GPS 좌표, 경로)
+- 거리, 페이스, 시간, 고도, 걸음 수, 심박수, 칼로리 등 피트니스 활동 데이터와 체중·키 등 신체 정보
+- Garmin Connect API, Apple 건강(HealthKit), Health Connect, 삼성 헬스, Suunto, COROS, Zepp 등 외부 서비스·건강 앱에서 가져온 데이터. 이러한 연동으로 가져온 러닝은 위 앱 이벤트를 보낼지 판단하는 데에도 쓰지 않습니다(제13조).
+- 이름, 이메일, 전화번호, 닉네임, 프로필 이미지, 회원 ID 등 회원을 직접 알아볼 수 있는 정보. 회사는 회원의 연락처를 Meta가 가진 정보와 대조(매칭)하는 기능을 쓰지 않습니다.
+- 결제·구매 정보
+
+**3) 회사가 이 정보를 쓰는 범위**
+
+회사는 Meta로부터 광고별 설치·가입 수와 같은 집계된 측정 결과만 받아, 어떤 광고가 효과가 있었는지 판단하는 데 씁니다. 회사는 이 정보를 회원 개인을 겨냥한 광고 노출(타게팅)이나 프로파일링에 쓰지 않습니다. Meta가 받은 정보를 처리하는 방식은 [Meta 개인정보처리방침](https://www.facebook.com/privacy/policy)과 [Meta 비즈니스 도구 약관](https://www.facebook.com/legal/businesstech)에 따릅니다.
+
+**4) 거부하는 방법**
+
+회원은 언제든지 이 제공을 거부할 수 있으며, 거부하더라도 KYRO 서비스 이용에는 아무런 제한이 없습니다.
+
+- **iPhone(iOS)**: 앱이 추적 허용을 요청할 때 ‘앱에 추적 금지 요청’을 선택합니다. 나중에는 기기의 설정 › 개인정보 보호 및 보안 › 추적에서 KYRO를 끌 수 있습니다. 추적을 허용하지 않으면 광고 식별자(IDFA)는 수집·제공되지 않습니다. 이때도 앱 설치·실행 신호와 앱 이벤트 이름은 광고 식별자 없이 전송되며, 회사는 이를 회원 개인을 구별할 수 없는 집계 결과로만 받습니다.
+- **Android**: 기기의 설정 › 개인정보 보호(또는 Google) › 광고에서 광고 ID를 삭제하거나 재설정합니다. 광고 ID를 삭제하면 광고 식별자는 제공되지 않습니다.
+- **전송 전체 중단**: 광고 식별자 외의 정보까지 Meta로 보내지 않기를 원하면 제15조의 연락처로 요청해 주십시오. 회사는 본인 확인 후 지체 없이 해당 회원 계정에서 Meta로의 전송을 중단합니다.
+- 메뉴 이름과 경로는 기기와 운영체제 버전에 따라 다를 수 있습니다.
+
+**5) 국외 이전** — Meta에 제공하는 정보는 국외로 이전됩니다. 이전받는 자, 국가, 시기와 방법 등은 제12조에 적었습니다.
+
 ### 12. 개인정보의 국외 이전
 
 회사는 서비스 제공을 위해 제11조의 수탁사에 개인정보 처리를 위탁하고 있으며, 해당 수탁사의 정보처리 설비가 국외에 소재하여 개인정보가 국외로 이전됩니다. 회사는 개인정보보호법 제28조의8 제1항 제3호에 따라 계약의 이행 및 이용자 편의 증진 등에 필요한 처리위탁·보관에 해당하는 범위에서, 다음 사항을 본 처리방침을 통해 공개합니다.
@@ -198,15 +244,29 @@
 
 회사는 국외로 이전되는 개인정보의 보호를 위해 위탁 계약에 개인정보보호법 제28조의8 제4항에 따른 보호조치(암호화 전송·저장, 접근통제, 재위탁 제한, 사고 통지 의무 등)를 규정하고 있습니다.
 
+**제3자 제공(제11조의2)에 따른 국외 이전**
+
+제11조의2에 따라 Meta에 제공하는 정보는 다음과 같이 국외로 이전됩니다.
+
+| 이전받는 자 | 이전되는 국가 | 이전 항목 | 이전 목적 | 이전 일시 및 방법 | 보유·이용 기간 |
+|---|---|---|---|---|---|
+| Meta Platforms, Inc. (GDPR이 적용되는 유럽 지역 이용자의 정보는 Meta Platforms Ireland Limited) | 미국 등 Meta의 정보처리 설비 소재국 (Meta Platforms Ireland Limited의 경우 아일랜드) | 광고 식별자, 앱 설치·실행 신호, 기기·운영체제·앱 버전 정보, 앱 이벤트 이름 4가지 (제11조의2 1)의 항목) | 제11조의2의 제공 목적 | 앱 설치·실행 및 이벤트 발생 시점에 Meta SDK를 통해 네트워크로 암호화 전송 | Meta 비즈니스 도구 약관에 따라 최대 2년 |
+
+회원은 제11조의2 4)의 방법으로 이 이전을 거부할 수 있으며, 거부하더라도 서비스 이용에는 제한이 없습니다.
+
 ### 13. 외부 AI 및 제3자 AI 서비스 활용 제한
 
-회사는 Garmin Connect API 등 외부 서비스 연동을 통해 수집한 데이터를 포함하여, 본 처리방침에 따라 수집·보유하는 모든 개인정보를 외부 AI 제공업체, 제3자 AI 서비스 또는 외부 데이터 처리 서비스(third-party data processing services)에 공유, 제공, 처리 또는 이용되도록 하지 않습니다.
+회사는 Garmin Connect API 등 외부 서비스 연동을 통해 수집한 데이터를 포함하여, 본 처리방침에 따라 수집·보유하는 모든 개인정보를 외부 AI 제공업체 또는 제3자 AI 서비스에 공유, 제공, 처리 또는 이용되도록 하지 않습니다.
 
-제11조에 명시된 처리 위탁은 본 조항에서 말하는 “제3자 AI 서비스 또는 외부 데이터 처리 서비스”에 해당하지 않으며, 모든 수탁사는 회사의 지시·감독 하에 명시된 업무 범위 내에서만 개인정보를 처리합니다.
+Garmin Connect API, Apple 건강(HealthKit), Health Connect, 삼성 헬스, Suunto, COROS, Zepp 등 외부 서비스·건강 앱 연동을 통해 수집한 데이터는 외부 AI 제공업체, 제3자 AI 서비스, 외부 데이터 처리 서비스(third-party data processing services)를 포함한 어떠한 제3자에게도 공유, 제공, 처리 또는 이용되도록 하지 않습니다. 특히 이 데이터는 **Meta를 비롯한 어떠한 광고 플랫폼이나 광고 사업자에게도 보내지 않으며**, 광고, 광고 효과 측정 또는 프로파일링에 이용하지 않습니다. 이러한 연동으로 가져온 러닝은 제11조의2의 앱 이벤트를 보낼지 판단하는 데에도 쓰지 않습니다.
+
+그 밖의 개인정보 역시 외부 데이터 처리 서비스에 공유, 제공, 처리 또는 이용되도록 하지 않습니다. 다만 제11조의2에 적은 항목만을 그 조의 목적으로 Meta에 제공하는 것은 예외이며, 이 제공에는 외부 서비스·건강 앱 연동을 통해 수집한 데이터가 포함되지 않습니다.
+
+제11조에 명시된 처리 위탁은 본 조항에서 말하는 “제3자 AI 서비스 또는 외부 데이터 처리 서비스”에 해당하지 않으며, 모든 수탁사는 회사의 지시·감독 하에 명시된 업무 범위 내에서만 개인정보를 처리합니다. Meta는 제11조의 수탁사가 아닙니다.
 
 **English Notice (Garmin Connect Developer Program Compliance)**
 
-As required by the Garmin Connect Developer Program, data obtained via the Garmin Connect API is not shared with, processed by, or otherwise made available to any third party, including external AI providers, third-party AI services, or external data processing services. The same restriction applies to all personal information the Company collects and retains under this Privacy Policy. Service-provider relationships disclosed in Article 11 (data processing entrustment) are operated under the Company's direction and control and do not constitute third-party sharing under this provision.
+As required by the Garmin Connect Developer Program, data obtained via the Garmin Connect API is not shared with, processed by, or otherwise made available to any third party, including external AI providers, third-party AI services, or external data processing services. In particular, data obtained via the Garmin Connect API is never sent to Meta or to any other advertising platform or advertising business, is never used for advertising, ad measurement, or profiling, and runs imported from Garmin are never used to determine whether any ad-measurement event described in Article 11-2 is sent. The restriction on external AI providers and third-party AI services applies to all personal information the Company collects and retains under this Privacy Policy. The restriction on external data processing services likewise applies to all such personal information, with one exception: the limited ad-measurement information described in Article 11-2, which is provided to Meta as a third party and never includes data obtained via the Garmin Connect API or from any health app. Service-provider relationships disclosed in Article 11 (data processing entrustment) are operated under the Company's direction and control and do not constitute third-party sharing under this provision; Meta is not such a service provider.
 
 > For a complete, dedicated disclosure of how data obtained through the Garmin Connect API is collected, used, processed, stored, and shared, see the **[Garmin Connect API — Data Disclosure](./garmin.html)** page.
 >
@@ -226,6 +286,8 @@ As required by the Garmin Connect Developer Program, data obtained via the Garmi
 - 위치정보관리책임자: 안정우
 - 이메일: support@kyro.team
 
+제11조의2에 따른 광고 효과 측정 정보의 Meta 제공 중단 요청과, 광고 식별자 처리에 관한 문의도 위 이메일로 받습니다.
+
 ### 16. 개인정보 처리방침의 변경에 관한 사항
 
 회사는 정부의 정책 또는 관계 법령, 서비스의 변경사항을 반영하기 위한 목적으로 개인정보처리방침을 수정할 수 있으며, 이때 최소 7일 전부터 공지사항을 통해 변경 사항을 고지하겠습니다. 다만 회원의 권리에 중요한 변경이 있는 경우(수집 항목 추가, 처리 목적 변경, 제3자 제공 추가 등)에는 최소 30일 전부터 고지합니다.
@@ -237,5 +299,6 @@ As required by the Garmin Connect Developer Program, data obtained via the Garmi
 | v1.0 | — | 2026년 4월 27일 | 최초 시행 |
 | v1.1 | — | 2026년 5월 17일 | 회사명 표기 정정(주식회사 무브먼트랩), 연락처 정정(support@kyro.team), 위치정보 별도 조항 신설(§10), 개인정보 처리 위탁 명시(§11), 자동 수집 항목 구체화, 소셜 로그인 자동 수집 명시, HealthKit/Google Fit 연동 명시, 챌린지 보상 배송 정보 별도 수집 명시, 8세 이하 아동 보호 추가, 광고성 정보 별도 동의 조항 신설(구 §13) |
 | v1.2 | 2026년 8월 4일 | 2026년 8월 4일 | 인앱 결제(KYRO PRO) 도입에 따른 결제 정보 처리 항목 신설(§2-6), 처리 목적에 유료서비스·결제·환불 관련 항목 추가(§3), 결제 기록 법정 보관기간 명시(§5), **개인정보 국외 이전 조항 신설(§12)**, 처리 위탁에 RevenueCat, Inc. 추가 및 스토어 결제 처리 주체 명확화(§11), 위치정보의 다른 회원 공개 범위·출발도착점 보호 설정 명시(§10), 탈퇴 시 파기 범위 및 영토 형상 정보의 비식별 처리 명시(§5·§6·§10), 수집 항목 현행화(LINE 로그인 및 인스타그램 계정명 추가, 실제로 수집하지 않는 이름·휴대전화번호·거주 국가 삭제), 영문본 제공 개시, 조항 번호 재정렬(구 §12~§16 → §13~§17) |
+| v1.3 | YYYY년 MM월 DD일 | YYYY년 MM월 DD일 | 광고 효과 측정을 위한 Meta 앱 이벤트 SDK 도입: 자동 수집 항목에 광고 식별자·앱 설치 기록·앱 이벤트 기록 추가(§2-4), 처리 목적에 광고 효과 측정 추가(§3), **광고 효과 측정을 위한 제3자 제공 조항 신설(§11-2)** 및 Meta가 수탁사가 아님을 명시(§11), 국외 이전에 Meta 추가(§12), 외부 서비스·건강 앱 데이터를 Meta 등 광고 플랫폼에 보내지 않음을 명시하고 외부 데이터 처리 서비스 제한의 범위 정리(§13), 위치정보가 광고 측정 정보에 포함되지 않음을 명시(§10), 거부 방법과 문의 경로 안내(§8·§11-2·§15). 조항 번호는 바꾸지 않고 §11-2를 끼워 넣음 |
 
-이 개인정보 처리방침(v1.2)은 2026년 8월 4일부터 시행됩니다. 직전 본(v1.1, 2026년 5월 17일 시행)은 [여기](https://github.com/Project-KYRO/privacy-policy/blob/main/archive/privacy-2026-05-17.ko.md)에서 확인하실 수 있습니다.
+이 개인정보 처리방침(v1.3)은 YYYY년 MM월 DD일부터 시행되며, 시행일 전까지는 직전 본이 적용됩니다. 직전 본(v1.2, 2026년 8월 4일 시행)은 [여기](https://github.com/Project-KYRO/privacy-policy/blob/main/archive/privacy-2026-08-04.ko.md), 그 이전 본(v1.1, 2026년 5월 17일 시행)은 [여기](https://github.com/Project-KYRO/privacy-policy/blob/main/archive/privacy-2026-05-17.ko.md)에서 확인하실 수 있습니다.

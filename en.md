@@ -2,7 +2,7 @@
 
 > **Language / 언어** — This policy is available in Korean and English. The English version is a convenience translation; in case of any discrepancy, **the Korean version prevails**. / 본 처리방침은 한국어와 영어로 제공됩니다. 영문본은 이해를 돕기 위한 번역이며, 해석상 차이가 있는 경우 한국어본이 우선합니다. → [한국어](./README.md)
 
-> **This revised policy takes effect on 4 August 2026.** The previous version is available as the [policy dated 17 May 2026](https://github.com/Project-KYRO/privacy-policy/blob/main/archive/privacy-2026-05-17.ko.md) (Korean). This revision is not a change unfavourable to members — it discloses payment processing that arises only for members who use the paid service, newly discloses cross-border transfers, and removes items that are not in fact collected — and therefore takes effect without delay, in members' interest. This revision discloses the processing of payment information following the introduction of in-app purchases (KYRO PRO), adds a cross-border transfer provision, and brings the collected-items and processor lists up to date. See the [Revision History](#17-revision-history) for details.
+> **This revised policy (v1.3) takes effect on DD Month YYYY. Until that date, the [previous policy (v1.2, effective 4 August 2026)](https://github.com/Project-KYRO/privacy-policy/blob/main/archive/privacy-2026-08-04.en.md) continues to apply.** This revision adds collected items (such as the advertising identifier) and a provision of personal data to a third party, following the introduction of Meta's app events SDK into the app for ad measurement; it is therefore announced 30 days before it takes effect, in accordance with Article 16. The Company sends no information to Meta before the effective date. In summary, this revision (1) adds the collection of the advertising identifier and app event records, (2) adds the provision of personal data to Meta for ad measurement (Article 11-2) and the resulting cross-border transfer, (3) states that location and workout records, and data obtained from external services and health apps, are never sent to Meta or any other advertising platform, and (4) explains how to opt out. See the [Revision History](#17-revision-history) for details.
 
 ### 1. About This Privacy Policy
 
@@ -38,6 +38,7 @@ The Company does not separately collect a member's legal name or mobile phone nu
 - Identifiers: IP address, device identifier
 - For sending notifications: push notification token (FCM)
 - Usage logs: in-app events, screen navigation paths, crash (abnormal termination) reports
+- For ad measurement (Article 11-2): the advertising identifier (on iOS, the IDFA is collected only if the member selects "Allow" in the app tracking request; on Android, the advertising ID is collected only if the member has not deleted it in the device settings), app install and launch records (on Android, including Google Play install referrer information), and app event records (sign-up completed, first run completed, first territory taken, second run completed — only the event name is recorded, and run and territory events are limited to runs recorded directly in the KYRO app)
 
 Depending on whether it is combined with other information and on how it is processed, automatically collected information may or may not constitute personal data. The Company may process it for the purposes of providing and improving the service.
 
@@ -75,6 +76,7 @@ Personal data collected is used only for the following purposes.
 - Processing payments, refunds, and withdrawals of subscription; responding to payment-related enquiries and disputes
 - Sending notices about subscription status, such as an upcoming end of a free trial
 - Communicating information about the Company's products, services, and events, and other promotional purposes (where advertising information is transmitted, separate consent is obtained under Article 14)
+- Measuring advertising effectiveness (learning which ad led to an install or sign-up). This is not for targeting ads at individual members or for profiling; see Article 11-2 for details.
 - Personalising the member's experience, the platform, and communications
 - Operating, improving, and maintaining the Company's business, products, and services
 - Protecting the rights, property, or safety of the Company or others
@@ -132,6 +134,8 @@ Members may at any time view, correct, or delete their personal data, or withdra
 The Company may refuse a member's request for access, correction, deletion, suspension of processing, or withdrawal of consent where there are special provisions in law or similar grounds. Members may object to such a refusal.
 When a member exercises a data subject right, the Company verifies that the person making the request is the member themselves or a duly authorised legal representative.
 
+Members may at any time refuse the provision to Meta of the advertising identifier and ad-measurement information under Article 11-2, by the methods set out in that Article (declining app tracking, deleting the advertising ID, or requesting that transmission stop). Refusing does not restrict use of the service in any way.
+
 **Rights of the personal location data subject (Article 24 of the Location Information Act)**
 
 A personal location data subject may exercise the following rights in respect of their own personal location data.
@@ -158,7 +162,7 @@ This service constitutes a location-based service under the Act on the Protectio
 - **Purpose of collection and use**: measuring the member's own running records, visualising accumulated territory, providing rankings and statistics
 - **Method of collection**: GPS coordinates are collected through the standard OS positioning APIs on the member's device (Apple Core Location / Google Geolocation Services), including in the background while a run is in progress.
 - **Retention period**: retained for as long as membership is maintained; upon withdrawal of membership or withdrawal of consent, location data including GPS routes is destroyed without delay. For the treatment of territory shape information that remains on the map after withdrawal, see Articles 5 and 6. Records verifying the use and provision of location data are retained for at least six months and then destroyed, pursuant to Article 16(2) of the Location Information Act.
-- **Provision to third parties**: the Company does not sell or provide members' location data to external businesses for advertising, marketing, or similar purposes.
+- **Provision to third parties**: the Company does not sell or provide members' location data to external businesses for advertising, marketing, or similar purposes. The ad-measurement information provided to Meta under Article 11-2 does not include location data either.
 - **Visibility to other members**: showing the route a member has run, and the territory generated from it, to other members is a core feature of this service. When saving a run, members can choose its visibility from **Public / Friends / Followers / Only me**; the default is Public. Runs saved as Public can be viewed, including their route and records, by other members. Members can change the visibility of a run at any time after saving it, and can block specific members.
 - **Protection of start and finish points**: enabling [Hide start and finish points] under Settings › Privacy conceals the first and last 200 m of the route shown to other members. The full route is always shown to the member themselves. Please use this setting where a sensitive location such as your home lies at the start or end of your route.
 - **Location data manager**: Ahn Jeongwoo (Chief Executive Officer) / support@kyro.team
@@ -181,6 +185,48 @@ Where the content of the entrusted work or the identity of a processor changes, 
 
 **Note on payment processing** — Payment for in-app purchases and the processing of payment instrument information are carried out **independently** by Apple Inc. (App Store) and Google LLC (Google Play) in accordance with their respective privacy policies. Neither company is a processor of the Company, and the Company does not receive payment instrument information from them.
 
+**Note on Meta** — Sending information to Meta Platforms, Inc. for ad measurement is treated not as entrustment but as provision to a third party, and is set out separately in Article 11-2. Meta is not a processor listed in the table above, nor a processor within the meaning of Article 13.
+
+### 11-2. Provision of Personal Data to a Third Party for Ad Measurement
+
+The Company provides personal data to third parties only where Articles 17 and 18 of PIPA permit it, such as with the data subject's consent or under a specific provision of law.
+
+To measure which ads led people to install the KYRO app and sign up, the Company includes Meta's app events SDK (the "Meta SDK") in the app and provides the information below to Meta. In addition to using that information to provide measurement and analytics results to the Company, Meta may, under the Meta Business Tools Terms, also use it for its own purposes, such as ad delivery and providing and improving Meta Products. For that reason, the Company discloses this transmission as a provision to a third party rather than as entrustment under Article 11. Until the effective date of this Policy (v1.3), the Company keeps the Meta SDK switched off and sends no information to Meta.
+
+| Recipient | Purpose of provision | Items provided | Retention and use period |
+|---|---|---|---|
+| Meta Platforms, Inc. (for users whose data is subject to the GDPR in the European region, Meta Platforms Ireland Limited) | Ad measurement (aggregating which ads led to installs and sign-ups); and, under the Meta Business Tools Terms, Meta's provision of measurement and analytics services, ad delivery, and the provision, improvement, and security of Meta Products | Advertising identifier, app install and launch signals, device, operating system, and app version information, and the names of four app events (see 1) below) | Up to two years, under the Meta Business Tools Terms |
+
+**1) Information sent to Meta — limited to the following**
+
+- **Advertising identifier**: on iOS, the IDFA is sent only if the member selects "Allow" in the App Tracking Transparency request. On Android, the advertising ID is sent unless the member has deleted it in the device settings.
+- **App install and launch signals**: signals that the Meta SDK sends automatically when the app is installed and launched. On Android, install referrer information provided by Google Play is included.
+- **Device information**: the device model, operating system and version, app version, and similar information that the Meta SDK sends with these signals, an identifier the Meta SDK creates for each app installation, and error records when the Meta SDK itself encounters an error. Because of how internet communication works, the device's IP address is also received by Meta.
+- **Four app events**: "sign-up completed", "first run completed", "first territory taken", and "second run completed". The Company sends only the name of each event, with no accompanying values such as distance or duration. Run and territory events are sent only for runs the member records directly in the KYRO app.
+
+**2) Information not sent to Meta**
+
+- Location data (GPS coordinates, routes)
+- Fitness activity data such as distance, pace, duration, elevation, step count, heart rate, and calories, and body data such as weight and height
+- Data obtained from external services and health apps, such as the Garmin Connect API, Apple Health (HealthKit), Health Connect, Samsung Health, Suunto, COROS, and Zepp. Runs imported through these integrations are not used even to determine whether any of the app events above is sent (Article 13).
+- Information that directly identifies a member, such as name, email address, phone number, nickname, profile image, or member ID. The Company does not use any feature that matches members' contact information against information held by Meta.
+- Payment and purchase information
+
+**3) How the Company uses this information**
+
+The Company receives from Meta only aggregated measurement results, such as the number of installs and sign-ups per ad, and uses them to judge which ads were effective. The Company does not use this information to target ads at individual members or for profiling. Meta's processing of the information it receives is governed by the [Meta Privacy Policy](https://www.facebook.com/privacy/policy) and the [Meta Business Tools Terms](https://www.facebook.com/legal/businesstech).
+
+**4) How to opt out**
+
+Members may refuse this provision at any time. Refusing does not restrict use of the KYRO service in any way.
+
+- **iPhone (iOS)**: when the app asks for permission to track, select "Ask App Not to Track". Later, you can turn KYRO off under Settings › Privacy & Security › Tracking on your device. If tracking is not allowed, the advertising identifier (IDFA) is neither collected nor provided. App install and launch signals and app event names are still transmitted without the advertising identifier, and the Company receives them only as aggregated results that cannot distinguish individual members.
+- **Android**: delete or reset the advertising ID under Settings › Privacy (or Google) › Ads on your device. Once the advertising ID is deleted, no advertising identifier is provided.
+- **Stopping all transmission**: if you do not want any information, beyond the advertising identifier, to be sent to Meta, please make a request through the contact details in Article 15. After verifying your identity, the Company will without delay stop transmission to Meta for your account.
+- Menu names and paths may differ depending on the device and operating system version.
+
+**5) Cross-border transfer** — Information provided to Meta is transferred abroad. The recipient, country, timing, method, and other details are set out in Article 12.
+
 ### 12. Cross-Border Transfer of Personal Data
 
 The Company entrusts the processing of personal data to the processors listed in Article 11. Because those processors' information processing facilities are located outside the Republic of Korea, personal data is transferred abroad. Pursuant to Article 28-8(1)(3) of PIPA, and to the extent that the transfer constitutes entrustment or storage necessary for the performance of a contract and for enhancing user convenience, the Company discloses the following through this Policy.
@@ -198,15 +244,29 @@ Members may refuse the cross-border transfer of their personal data. However, be
 
 To protect personal data transferred abroad, the Company stipulates in its entrustment agreements the protective measures required by Article 28-8(4) of PIPA, including encryption in transit and at rest, access control, restrictions on sub-processing, and obligations to notify incidents.
 
+**Cross-border transfer resulting from provision to a third party (Article 11-2)**
+
+Information provided to Meta under Article 11-2 is transferred abroad as follows.
+
+| Recipient | Country | Items transferred | Purpose | Time and method of transfer | Retention and use period |
+|---|---|---|---|---|---|
+| Meta Platforms, Inc. (for users whose data is subject to the GDPR in the European region, Meta Platforms Ireland Limited) | United States and other countries where Meta's information processing facilities are located (Ireland, for Meta Platforms Ireland Limited) | Advertising identifier, app install and launch signals, device, operating system, and app version information, and the names of four app events (the items in Article 11-2, item 1)) | The purposes of provision in Article 11-2 | Transmitted over the network in encrypted form through the Meta SDK when the app is installed or launched and when an event occurs | Up to two years, under the Meta Business Tools Terms |
+
+Members may refuse this transfer by the methods in Article 11-2, item 4). Refusing does not restrict use of the service.
+
 ### 13. Restriction on the Use of External and Third-Party AI Services
 
-The Company does not share, provide, or otherwise make available any personal data it collects and retains under this Policy — including data collected through integrations with external services such as the Garmin Connect API — to external AI providers, third-party AI services, or external data processing services, nor allow such data to be processed or used by them.
+The Company does not share, provide, or otherwise make available any personal data it collects and retains under this Policy — including data collected through integrations with external services such as the Garmin Connect API — to external AI providers or third-party AI services, nor allow such data to be processed or used by them.
 
-The entrustment relationships set out in Article 11 do not constitute "third-party AI services or external data processing services" for the purposes of this provision. All processors handle personal data only within the specified scope of work and under the Company's direction and supervision.
+Data collected through integrations with external services and health apps, such as the Garmin Connect API, Apple Health (HealthKit), Health Connect, Samsung Health, Suunto, COROS, and Zepp, is not shared with, provided to, processed by, or otherwise made available to any third party, including external AI providers, third-party AI services, and external data processing services. In particular, this data is **never sent to Meta or to any other advertising platform or advertising business**, and is never used for advertising, ad measurement, or profiling. Runs imported through these integrations are not used even to determine whether any app event under Article 11-2 is sent.
+
+Other personal data is likewise not shared with, provided to, processed by, or otherwise made available to external data processing services, with one exception: the provision to Meta, for the purposes of Article 11-2, of only the items listed in that Article. That provision never includes data collected through integrations with external services or health apps.
+
+The entrustment relationships set out in Article 11 do not constitute "third-party AI services or external data processing services" for the purposes of this provision. All processors handle personal data only within the specified scope of work and under the Company's direction and supervision. Meta is not a processor under Article 11.
 
 **English Notice (Garmin Connect Developer Program Compliance)**
 
-As required by the Garmin Connect Developer Program, data obtained via the Garmin Connect API is not shared with, processed by, or otherwise made available to any third party, including external AI providers, third-party AI services, or external data processing services. The same restriction applies to all personal information the Company collects and retains under this Privacy Policy. Service-provider relationships disclosed in Article 11 (data processing entrustment) are operated under the Company's direction and control and do not constitute third-party sharing under this provision.
+As required by the Garmin Connect Developer Program, data obtained via the Garmin Connect API is not shared with, processed by, or otherwise made available to any third party, including external AI providers, third-party AI services, or external data processing services. In particular, data obtained via the Garmin Connect API is never sent to Meta or to any other advertising platform or advertising business, is never used for advertising, ad measurement, or profiling, and runs imported from Garmin are never used to determine whether any ad-measurement event described in Article 11-2 is sent. The restriction on external AI providers and third-party AI services applies to all personal information the Company collects and retains under this Privacy Policy. The restriction on external data processing services likewise applies to all such personal information, with one exception: the limited ad-measurement information described in Article 11-2, which is provided to Meta as a third party and never includes data obtained via the Garmin Connect API or from any health app. Service-provider relationships disclosed in Article 11 (data processing entrustment) are operated under the Company's direction and control and do not constitute third-party sharing under this provision; Meta is not such a service provider.
 
 > For a complete, dedicated disclosure of how data obtained through the Garmin Connect API is collected, used, processed, stored, and shared, see the **[Garmin Connect API — Data Disclosure](./garmin.html)** page.
 
@@ -224,6 +284,8 @@ The Company designates and operates a Chief Privacy Officer and a Location Data 
 - Location Data Manager: Ahn Jeongwoo
 - Email: support@kyro.team
 
+Requests to stop the provision of ad-measurement information to Meta under Article 11-2, and enquiries about the processing of the advertising identifier, are also received at the email address above.
+
 ### 16. Changes to This Privacy Policy
 
 The Company may revise this Privacy Policy to reflect government policy, applicable legislation, or changes to the service. In such cases, the Company will give notice of the changes through announcements at least 7 days in advance. Where there is a material change affecting members' rights (such as the addition of collected items, a change of processing purpose, or the addition of third-party provision), notice will be given at least 30 days in advance.
@@ -235,5 +297,6 @@ The Company may revise this Privacy Policy to reflect government policy, applica
 | v1.0 | — | 27 April 2026 | Initial version |
 | v1.1 | — | 17 May 2026 | Corrected company name (Movement Lab Inc.) and contact address (support@kyro.team); added a dedicated location data article (§10); disclosed entrustment of personal data processing (§11); specified automatically collected items; disclosed automatic collection on social sign-in; disclosed HealthKit/Google Fit integration; disclosed separate collection of challenge reward delivery information; added protection for children aged 8 and under; added a separate consent provision for advertising information (former §13) |
 | v1.2 | 4 August 2026 | 4 August 2026 | Added processing of payment information following the introduction of in-app purchases (KYRO PRO) (§2-6); added paid-service, payment, and refund purposes (§3); specified the statutory retention period for payment records (§5); **added a cross-border transfer provision (§12)**; added RevenueCat, Inc. as a processor and clarified who processes store payments (§11); disclosed the visibility of location data to other members and the start/finish protection setting (§10); specified what is destroyed on withdrawal and how territory shape information is de-identified (§5, §6, §10); brought collected items up to date (added LINE sign-in and Instagram handle; removed legal name, mobile phone number, and country of residence, which are not in fact collected); published an English version; renumbered former §12–§16 as §13–§17 |
+| v1.3 | DD Month YYYY | DD Month YYYY | Introduction of Meta's app events SDK for ad measurement: added the advertising identifier, app install records, and app event records to automatically collected items (§2-4); added ad measurement to the processing purposes (§3); **added a provision on supplying personal data to a third party for ad measurement (§11-2)** and stated that Meta is not a processor (§11); added Meta to cross-border transfers (§12); stated that data from external services and health apps is never sent to Meta or any other advertising platform, and clarified the scope of the restriction on external data processing services (§13); stated that ad-measurement information does not include location data (§10); explained how to opt out and where to send requests (§8, §11-2, §15). Article numbers are unchanged; §11-2 is inserted |
 
-This Privacy Policy (v1.2) takes effect on 4 August 2026. The previous version (v1.1, effective 17 May 2026) is available [here](https://github.com/Project-KYRO/privacy-policy/blob/main/archive/privacy-2026-05-17.ko.md).
+This Privacy Policy (v1.3) takes effect on DD Month YYYY; until then, the previous version applies. The previous version (v1.2, effective 4 August 2026) is available [here](https://github.com/Project-KYRO/privacy-policy/blob/main/archive/privacy-2026-08-04.en.md), and the version before it (v1.1, effective 17 May 2026) [here](https://github.com/Project-KYRO/privacy-policy/blob/main/archive/privacy-2026-05-17.ko.md) (Korean).
