@@ -95,12 +95,19 @@
 
   /* Wide tables scroll inside their own box instead of widening the page. */
   .prose table { border-collapse: collapse; width: 100%; font-size: 14px; min-width: 460px; }
-  .prose th, .prose td { border: 1px solid #e2e2dd; padding: 8px 12px; text-align: left; vertical-align: top; }
+  /* Cells wrap at words: .prose's `overflow-wrap: anywhere` let short columns (version, dates)
+     shrink to one character on phones. Only the last column, which holds the long prose,
+     may still break inside a word so the table fits. */
+  .prose th, .prose td { border: 1px solid #e2e2dd; padding: 8px 12px; text-align: left; vertical-align: top; overflow-wrap: normal; }
+  .prose td:last-child { overflow-wrap: anywhere; }
   .prose th { background: #f0f0ec; font-weight: 700; }
   .tablewrap { overflow-x: auto; margin: 0 0 18px; }
 
   @media (max-width: 600px) {
     .prose { font-size: 15px; padding: 24px 18px 80px; }
+    .prose table { min-width: 0; }
+    .prose table:has(th:nth-child(5)) { min-width: 560px; }
+    .prose th, .prose td { padding: 8px; }
     .prose h1 { font-size: 25px; }
     .prose h2 { font-size: 19px; }
   }
