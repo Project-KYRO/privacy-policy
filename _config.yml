@@ -18,3 +18,8 @@ plugins: []
 kramdown:
   input: GFM
   auto_ids: true
+
+# Maintainer notes, not part of the published policy. GitHub Pages renders
+# front-matter-less markdown, so it has to be excluded explicitly.
+exclude:
+  - NOTICE_PROCESS.md
