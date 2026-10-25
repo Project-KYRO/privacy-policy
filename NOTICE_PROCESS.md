@@ -28,10 +28,11 @@
   - `README.md`의 `YYYY년 MM월 DD일`: §17 표의 **공고일 칸만** 공고일이다. 머리 공지, §17 시행일 칸, 맨 끝 문장은 시행일이다.
   - `en.md`의 `DD Month YYYY`: README와 같은 자리다.
   - `garmin.md`의 `YYYY-MM-DD`: 공고일이다.
+  - `ja-external-transmission.md`의 `YYYY-MM-DD`: 「最終更新日」은 공고일, 「適用開始日」은 시행일이다.
 - 머지 전에 아래 명령을 돌려 출력이 비어 있는지 확인한다.
 
   ```
-  grep -n "YYYY\|DD Month\|MM월 DD일" README.md en.md garmin.md
+  grep -n "YYYY\|DD Month\|MM월 DD일" README.md en.md garmin.md ja-external-transmission.md
   ```
 - 새 처리(예: SDK 켜기)는 **시행일 이후에만** 시작한다. 앱을 먼저 내보내야 하면 기능을 꺼 둔 채로 내보내고, 시행일에 원격 스위치로 켠다.
 - 개정 PR에 "법무 확인 필요"라고 적혀 있으면 그 결론이 난 뒤에 머지한다.
@@ -76,6 +77,7 @@
   - 더 많은 이벤트 정보 자동 전송: 끈다.
   - 앱 이벤트로 맞춤 타겟 만들기: 하지 않는다.
 - 처리방침 본문은 고치지 않는다.
+- v1.3 전용: Meta 수집 국가(앱의 원격 allowlist, 지금은 KR·JP)를 늘리려면 **먼저** §11-2 「현재는 한국과 일본」 문장(한/영)과 일본어 공표 페이지를 고쳐 공고한 뒤 allowlist를 바꾼다. 러시아(RU)는 넣지 않는다.
 
 ## 5. 거부·중단 요청을 받으면
 
