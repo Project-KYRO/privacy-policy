@@ -9,7 +9,7 @@ canonical: "https://project-kyro.github.io/privacy-policy/garmin.html"
 
 _This page is part of the [KYRO Privacy Policy](./) and describes specifically how data obtained through the **Garmin Connect API** is collected, used, processed, stored, and shared. It is maintained by Movements Lab Co., Ltd. (주식회사 무브먼트랩, "the Company"), operator of the KYRO application._
 
-**Last updated: YYYY-MM-DD**
+**Last updated: 2026-10-26**
 
 ---
 
@@ -78,7 +78,7 @@ For the full KYRO Privacy Policy, see <https://project-kyro.github.io/privacy-po
 
 _본 페이지는 [KYRO 개인정보처리방침](./)의 일부로서, **Garmin Connect API**를 통해 수집한 데이터를 어떻게 수집·이용·처리·저장·공유하는지를 구체적으로 설명합니다. KYRO 애플리케이션 운영사인 주식회사 무브먼트랩(이하 "회사")이 관리합니다._
 
-**최종 업데이트: YYYY-MM-DD**
+**최종 업데이트: 2026-10-26**
 
 ## 1. 적용 범위
 
